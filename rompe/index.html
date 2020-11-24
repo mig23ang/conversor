@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+
+<html lang="es" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="gior.css">
+	<link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="main.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body onload="comprobarnavegador();">
+	<header>
+		<h1>Universidad Santo Tomas Tunja</h1>
+	</header>
+
+	<h1> Rompecabezas Tabla Periodica </h1>
+	<div class="row">
+		<section id="contenedorPuzzle">
+			<div id="contenedorPiezas" ondragenter="return enter(event)" ondragover="return over(event)"
+				ondrop="return drop(event)">
+
+				<img id="pieza1" src="img3/1.jpg" alt="pieza3" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza2" src="img3/2.jpg" alt="pieza2" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza33" src="img3/33.jpg" alt="pieza6" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza34" src="img3/34.jpg" alt="pieza1" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza35" src="img3/35.jpg" alt="pieza4" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza36" src="img3/36.jpg" alt="pieza3" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza3" src="img3/3.jpg" alt="pieza6" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza4" src="img3/4.jpg" alt="pieza1" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza5" src="img3/5.jpg" alt="pieza4" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza22" src="img3/22.jpg" alt="pieza1" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza23" src="img3/23.jpg" alt="pieza4" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza24" src="img3/24.jpg" alt="pieza5" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza25" src="img3/25.jpg" alt="pieza3" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza8" src="img3/8.jpg" alt="pieza2" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza9" src="img3/9.jpg" alt="pieza6" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza10" src="img3/10.jpg" alt="pieza1" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza11" src="img3/11.jpg" alt="pieza4" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza12" src="img3/12.jpg" alt="pieza5" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza26" src="img3/26.jpg" alt="pieza2" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza27" src="img3/27.jpg" alt="pieza6" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza13" src="img3/13.jpg" alt="pieza3" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza39" src="img3/39.jpg" alt="pieza1" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza40" src="img3/40.jpg" alt="pieza4" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza41" src="img3/41.jpg" alt="pieza5" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza17" src="img3/17.jpg" alt="pieza4" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza18" src="img3/18.jpg" alt="pieza5" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza19" src="img3/19.jpg" alt="pieza3" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza20" src="img3/20.jpg" alt="pieza2" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza21" src="img3/21.jpg" alt="pieza6" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza28" src="img3/28.jpg" alt="pieza1" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza29" src="img3/29.jpg" alt="pieza4" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza30" src="img3/30.jpg" alt="pieza5" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza31" src="img3/31.jpg" alt="pieza3" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza32" src="img3/32.jpg" alt="pieza2" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza6" src="img3/6.jpg" alt="pieza5" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza7" src="img3/7.jpg" alt="pieza3" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza37" src="img3/37.jpg" alt="pieza2" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza48" src="img3/48.jpg" alt="pieza3" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza49" src="img3/49.jpg" alt="pieza2" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza52" src="img3/52.jpg" alt="pieza4" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza53" src="img3/53.jpg" alt="pieza5" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza54" src="img3/54.jpg" alt="pieza3" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza55" src="img3/55.jpg" alt="pieza2" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza56" src="img3/56.jpg" alt="pieza6" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza38" src="img3/38.jpg" alt="pieza6" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+
+				<img id="pieza42" src="img3/42.jpg" alt="pieza3" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza43" src="img3/43.jpg" alt="pieza2" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza44" src="img3/44.jpg" alt="pieza6" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza45" src="img3/45.jpg" alt="pieza1" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza46" src="img3/46.jpg" alt="pieza4" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza47" src="img3/47.jpg" alt="pieza5" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza14" src="img3/14.jpg" alt="pieza2" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza15" src="img3/15.jpg" alt="pieza6" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza16" src="img3/16.jpg" alt="pieza1" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza50" src="img3/50.jpg" alt="pieza6" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza51" src="img3/51.jpg" alt="pieza1" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza63" src="img3/63.jpg" alt="pieza1" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza64" src="img3/64.jpg" alt="pieza4" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza65" src="img3/65.jpg" alt="pieza5" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza66" src="img3/66.jpg" alt="pieza3" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza57" src="img3/57.jpg" alt="pieza1" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza58" src="img3/58.jpg" alt="pieza4" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza59" src="img3/59.jpg" alt="pieza5" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza60" src="img3/60.jpg" alt="pieza3" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza61" src="img3/61.jpg" alt="pieza2" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+				<img id="pieza62" src="img3/62.jpg" alt="pieza6" draggable="true" ondragstart="start(event)"
+					ondragend="end(event)">
+
+
+			</div>
+			<div id="puzzle">
+				<div class="contenedorPieza" id="uno" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="dos" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="tres" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="cuatro" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="cinco" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="seis" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="siete" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="ocho" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="nueve" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="cuatro" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="cinco" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="seis" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="uno" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="dos" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="tres" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="cuatro" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="cinco" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="seis" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="uno" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="dos" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="tres" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="cuatro" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="cinco" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="seis" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="uno" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="dos" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="tres" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="cuatro" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="cinco" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="seis" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="uno" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="dos" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="tres" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="cuatro" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="uno" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="dos" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="tres" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="cuatro" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="cinco" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="seis" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="siete" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="ocho" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="nueve" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="cuatro" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="cinco" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="seis" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="uno" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="dos" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="tres" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="cuatro" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="cinco" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="seis" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="uno" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="dos" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="tres" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="cuatro" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="cinco" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="seis" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="uno" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="dos" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="tres" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="cuatro" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="cinco" ondragenter="return enter(event)"
+					ondragover="return over(event)" ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="seis" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="uno" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+				<div class="contenedorPieza" id="dos" ondragenter="return enter(event)" ondragover="return over(event)"
+					ondrop="return drop(event)"></div>
+
+
+			</div>
+			<img style="width:600px;height:400px;margin-left:40px;margin-top:30px;border-style:solid;z-index:30;"
+				src="img3/tabla.png" alt="">
+
+		</section>
+
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
